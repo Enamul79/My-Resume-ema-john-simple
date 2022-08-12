@@ -1,0 +1,18 @@
+.product-container{
+    border: 1px solid lightgrey;
+    margin-top: 120px;
+    border-radius: 8px;
+}
+.product-container img{
+    width: 285px;
+    height: 285px;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.product-container h4,h5,h6,p{
+    margin-left: 10px;
+}
