@@ -2,14 +2,21 @@ import React from 'react';
 import './Product.css';
 
 const Product = (props) => {
-    const{img,name,price,seller,ratings}=props.product;
+    const { img, name, price, seller, ratings } = props.product;
     return (
-        <div className='product-container'>
+        <div className='product'>
             <img src={img} alt="" />
-            <h4>{name}</h4>
-            <h5>Price : ${price}</h5>
-            <h6>Seller : {seller}</h6>
-            <p><small>Ratings : {ratings}</small></p>
+           
+            <div className='product-info'>
+                <p className='product-name'>{name}</p>
+                <p>Price : ${price}</p>
+                <p>Seller : {seller}</p>
+                <p><small>Ratings : {ratings}*</small></p>
+            </div>
+
+            <button className='btn-cart'>
+                <p>Add To Cart</p>
+            </button>
         </div>
     );
 };

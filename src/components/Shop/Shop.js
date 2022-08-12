@@ -11,13 +11,14 @@ const Shop = () => {
     useEffect( ()=>{
         fetch('https://raw.githubusercontent.com/ProgrammingHero1/ema-john-resources/main/fakeData/products.json')
             .then(res=>res.json())
-            .then(data=>setProducts(data.slice(0,8)));
+            .then(data=>setProducts(data));
     },[])
 
     return (
         <div className='shop-container'>
+
             <div className="products-container">
-                    {/* <h1>This is my products side : {products.length}</h1> */}
+                  
                     {
                         products.map(product=><Product
                         
