@@ -8,12 +8,12 @@ const Header = () => {
             <img src={logo} alt="" />
 
             <div>
-                <a href="/">Home</a>{" "}
-                <a href="/order">Order</a>{" "}
-                <a href="/order review">Order Review</a>{" "}
-                <a href="/manage Inventory">Manage Inventory</a>
+                <a href="/shop">Shop</a>{" "}
+                <a href="/orders">Orders</a>{" "}
+                <a href="/inventory">Inventory</a>{" "}
+                <a href="/about">About</a>
             </div>
-            
+
         </nav>
     );
 };

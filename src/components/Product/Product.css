@@ -33,7 +33,7 @@
 }
 
 .product-info p {
-    margin: 15px;
+    margin: 6px;
     
 }
 
@@ -44,9 +44,16 @@
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 /* child container absolute and bottom zero; */
+
+.btn-cart .btn-text{
+    margin-right: 10px;
+}
 .btn-cart:hover{
     background-color:lightcoral;
 }
