@@ -2,6 +2,8 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import Product from '../Product/Product';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import './Shop.css';
 
 const Shop = () => {
@@ -45,11 +47,14 @@ const Shop = () => {
                 <h3 className='grand-total-text'>Grand Total : $</h3>
 
                 <button className='btn-clear'>
-                    <p>Clear Cart</p>
+                    <p className='clear-text'>Clear Cart</p>
+                    <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
                 </button>
 
                 <button className='btn-review'>
-                    <p>Review Order</p>
+                    <p className='review-text'>Review Order</p>
+                    <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+                    
                 </button>
 
 

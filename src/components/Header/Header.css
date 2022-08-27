@@ -1,12 +1,14 @@
 .header-container{
     background-color:#1C2B35;
     height: 80px;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding-left: 112px;
-   padding-right: 112px;
-   /* position: static; notice that/help */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 112px;
+    padding-right: 112px;
+    /* position: sticky;
+    margin-top: 0px; */
+    /* position: static; notice that/help */
 }
 
 .header-container a{
